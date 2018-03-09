@@ -10,7 +10,7 @@ import UIKit
 
 class {{ prefix }}{{ module_info.name }}Configurator {
 
-    func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
+    func configureViewInput<UIViewController>(viewInput: UIViewController) {
 
         if let viewController = viewInput as? {{ prefix }}{{ module_info.name }}ViewController {
             configure(viewController: viewController)
